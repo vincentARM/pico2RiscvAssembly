@@ -1,6 +1,6 @@
 # programme pour tester l'assembleur riscv raspberry pico2
 # uniquement assembleur riscv
-# affichage message
+# clignotement Led
 /*********************************************/
 /*           CONSTANTES                      */
 /********************************************/
@@ -151,15 +151,13 @@ ledEclats:                      # INFO: ledEclats
 attendre:                     # INFO: attendre
     addi    sp, sp, -4        # save des registres
     sw      s0, 0(sp)
-
     slli s0,a0,13             # approximatif 
-   # slli a0,a0,10
-   #add a0,a0,t1
 1:                            # loop 
     addi s0,s0, -1            # decrement indice
     bnez s0,1b
     lw      s0, 0(sp)
     addi    sp, sp, 4         # restaur registres
     ret 
+
 
  
