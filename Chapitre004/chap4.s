@@ -1,6 +1,6 @@
 # programme pour tester l'assembleur riscv raspberry pico2
 # uniquement assembleur riscv
-# affichage message
+# Clignottement Led, copie data
 /*********************************************/
 /*           CONSTANTES                      */
 /********************************************/
@@ -200,4 +200,5 @@ initDebut:                   # INFO: initDebut
     lw      ra, 0(sp)
     addi    sp, sp, 8
     ret        
+
  
