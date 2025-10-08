@@ -21,3 +21,5 @@ Vous trouverez aussi sur internet, la documentation sur les cœurs hazard3 et de
 [Chapitre 4: ](https://github.com/vincentARM/pico2RiscvAssembly/tree/main/Chapitre004)    Clignotement Led et copie data sans le SDK
 
 [Chapitre 5: ](https://github.com/vincentARM/pico2RiscvAssembly/tree/main/Chapitre005)    Clignotement Led et multicoeur sans le SDK
+
+[Chapitre 5: ](https://github.com/vincentARM/pico2RiscvAssembly/tree/main/Chapitre006)  Connexion USB sans le SDK
