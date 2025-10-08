@@ -1,0 +1,15 @@
+cmake_minimum_required(VERSION 3.13)
+set ( PICO_SDK_PATH "C:\\Principal\\Pico\\outils\\pico-sdk")
+include(pico_sdk_import.cmake)
+project(projet1 C CXX ASM)
+set(CMAKE_C_STANDARD 11)
+set(CMAKE_CXX_STANDARD 17)
+pico_sdk_init()
+add_executable(projet1
+chap1.s
+)
+target_link_libraries(projet1 pico_stdlib hardware_hazard3)
+pico_enable_stdio_usb(projet1 1)
+pico_enable_stdio_uart(projet1 0)
+pico_add_extra_outputs(projet1)
+target_include_directories(projet1 PRIVATE ${CMAKE_CURRENT_LIST_DIR} )
