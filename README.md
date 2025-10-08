@@ -14,7 +14,7 @@ Vous trouverez aussi sur internet, la documentation sur les cœurs hazard3 et de
 
 [Chapitre 1: ](https://github.com/vincentARM/pico2RiscvAssembly/tree/main/Chapitre001)    Affichage message avec le SDK.
 
-[Chapitre 2: ](https://github.com/vincentARM/pico2RiscvAssembly/tree/main/Chapitre002)    Routines conversion hexadécimal
+[Chapitre 2: ](https://github.com/vincentARM/pico2RiscvAssembly/tree/main/Chapitre002)    Routines conversion hexadécimal avec le SDK
 
 [Chapitre 3: ](https://github.com/vincentARM/pico2RiscvAssembly/tree/main/Chapitre003)    Clignotement Led sans le SDK
 
