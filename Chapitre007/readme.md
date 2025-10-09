@@ -14,6 +14,8 @@ Nous avons crée un tableau de 4 nombres dans le .data tabnombre, et nous allons
 
 Puis dans une deuxième boucle, utilisation de l’instruction sh2add qui effectue directement le calcul de l’adresse.
 
+Nous avons ajouté ces instructions dans une nouvelle commande : tab.
+
 Pour afficher le titre de chaque test, nous utilisons une macro que nous appelons comme ceci :
 afficherLib test   ou afficherLib "extraction d’un bit" s'il y a des espaces dans le libellé.
 
